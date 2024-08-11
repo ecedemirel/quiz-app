@@ -7,7 +7,7 @@
   const search = ref( "" );
 
   watch( search, () => {
-    quizes.value = q.filter( ( i ) => i.name.toLowerCase().includes( search.value.toLowerCase() ) );
+    quizes.value = q.filter(( i ) => i.name.toLowerCase().includes( search.value.toLowerCase())) ;
   } );
 </script>
 

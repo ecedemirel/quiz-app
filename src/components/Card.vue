@@ -1,7 +1,7 @@
 <script setup>
-  import { defineProps } from 'vue';
+  import { defineProps } from "vue";
 
-  const { quiz } = defineProps( [ "quiz" ] );
+  const { quiz } = defineProps(["quiz"]);
 </script>
 
 <template>
@@ -13,7 +13,6 @@
     </div>
   </div>
 </template>
-
 
 <style scoped>
   .card {
